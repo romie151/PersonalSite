@@ -1,0 +1,12 @@
+.HomeBody {
+    /* background-color: black; */
+}
+#Menu {
+    border: solid 2px black;
+    width: 35%;
+    Height: 100vh;
+    position: fixed;
+}
+h1{
+    color: purple;
+}
