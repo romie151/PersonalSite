@@ -1,12 +1,21 @@
-.HomeBody {
+body {
     /* background-color: black; */
+    color: white;
 }
-#Menu {
-    border: solid 2px black;
-    width: 35%;
-    Height: 100vh;
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#background {
+    height: auto;
+    width: 100%;
+}
+
+#stuff {
+    z-index: -1;
     position: fixed;
+    overflow-y: scroll;
 }
-h1{
-    color: purple;
-}
+
